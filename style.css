@@ -1,0 +1,366 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-size: 0.97vw;
+}
+
+body{
+    margin-top: 48px;
+}
+
+.logo-booki{
+    display: flex;
+    width: 61px;
+    height: 19px;
+    margin-right: auto;
+    margin-bottom: 63px;
+}
+
+.onglets{
+    
+    list-style: none;
+    display: flex;
+}
+
+.link1 {
+    text-decoration: none;
+    font-weight: bolder;
+    line-height: 1.32vw;
+    text-align: center;
+    color: #0065FC;
+    font-size: 16px;
+    margin: 67px;
+    margin-top: 45px;
+    border-top:2px solid #0065FC;
+    padding: 46px 25px 0 25px;
+}
+
+.link2 {
+    text-decoration: none;
+    font-weight: bolder;
+    line-height: 1.32vw;
+    text-align: center;
+    color: #0065FC;
+    font-size: 16px;
+    margin: 67px;
+    margin-top: 48px;
+}
+
+.intro{
+    margin-left: 2.5vw;
+}
+
+.barre-recherche{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.5vw;
+}
+
+.logo-recherche{
+    height: 3vw;
+    width: 3vw;
+    background-color: #d9d9d9;
+    border-radius: 0.9vw 0vw 0vw 0.9vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-recherche{
+    height: 3vw;
+    border: none;
+    color: white;
+    background-color: #0065FC;
+    font-size: 1.08vw;
+    border-radius: 0vw 0.9vw 0.9vw 0vw;
+    padding: 0.842vw 0.962vw;
+}
+
+.champ-recherche{
+    text-decoration: none;
+    height: 2.946;    ;
+    padding: 0;
+    border:1px solid #d9d9d9;
+}
+
+.filtre{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn-filtre{
+    height: 3vw;
+    border-radius: 1.5vw;
+    border: 0.12vw solid #d9d9d9;
+    padding: 0.78vw 0;
+    padding-right: 0.9vw;
+    text-decoration: none;
+    background-color: white;
+    font-size: 1.02vw;
+    font-weight: bolder;
+    margin-left: 1vw;
+    margin-right: 1vw;
+}
+
+.titre-filtre{
+    margin-left: 2.5vw;
+    margin-right: 0.9vw;
+}
+
+.btn-filtre:active {
+    background-color: #DEEBFF;
+}
+
+.btn-filtre i{
+    color: #0065FC;
+    padding-left: 0.9vw;
+    padding-right: 0.9vw;
+}
+
+.info{
+    margin: 2.5vw;
+    display: flex;
+
+    align-items: center;
+}
+
+.logo-info{
+    background : white;
+    border-radius: 55px;
+    color: #0065FC;
+    border: 1px solid #d9d9d9;
+    height: 24px;
+    width: 24px;
+    margin-right: 0.75%;
+}
+
+
+h4 {
+    font-size: 1.53vw;
+}
+
+
+
+.star-blue {
+    color: #0065FC;
+    font-size: 0.83vw;
+}
+
+.star-grey {
+    color: #d9d9d9;
+    font-size: 0.83vw;
+}
+
+.img1-content {
+    width: 16.3vw;
+    height: 7.9vw;
+    object-fit: cover;
+    padding: 0.35vw;
+    border-radius: 1.39vw 1.39vw 0 0;
+}
+
+.img2-content {
+    width: 8.65vw;
+    height: 9.3vw;
+    object-fit: cover;
+    padding: 0.35vw;
+    border-radius: 1.39vw 0 0 1.39vw;
+    float: left;
+}
+
+.img3-content {
+    width: 302px;
+    height: 444.51px;
+    object-fit: cover;
+    border-radius: 1.39vw 1.39vw 0 0;
+}
+
+.deco-card{
+    text-decoration: none;
+    color: black;
+}
+
+
+.note{
+    margin-top: auto;
+    margin-bottom: 0.3vw;
+}
+
+.text1-content {
+    padding: 0.14vw 1.11vw 0.35vw 1.11vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.text2-content {
+    padding: 0.14vw 1.11vw 0.35vw 1.11vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.text3-content {
+    padding: 0.14vw 1.11vw 0.35vw 1.11vw;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.card1-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card1{
+    cursor: pointer;
+    max-width: 17vw;
+    width: 17vw;
+    height: 13.82vw;
+    border-radius: 1.39vw;
+    background-color: white;
+    margin-bottom: 2.08vw;
+    -webkit-box-shadow: 0 0 1.39vw 0 #56565669;
+    box-shadow: 0 0 1.39vw 0 #56565669;
+}
+
+.card2-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.card2{
+    cursor: pointer;
+    max-width: 23.8vw;
+    width: 23.8vw;
+    height: 10vw;
+    border-radius: 1.39vw;
+    background-color: white;
+    margin-bottom: 2.08vw;
+    -webkit-box-shadow: 0 0 1.39vw 0 #56565669;
+    box-shadow: 0 0 1.39vw 0 #56565669;
+}
+
+.card3{
+    cursor: pointer;
+    max-width: 302px;
+    width: 302px;
+    height: 444.51px;
+    border-radius: 1.39vw;
+    background-color: white;
+    margin-bottom: 2.08vw;
+    -webkit-box-shadow: 0 0 1.39vw 0 #56565669;
+    box-shadow: 0 0 1.39vw 0 #56565669;
+}
+
+.card3-content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card3-titre {
+    margin: 0;
+    font-weight: bolder;
+    font-size: 1.11vw;
+    text-decoration: none;
+}
+
+.card1-titre {
+    margin: 0;
+    font-weight: bolder;
+    font-size: 1.11vw;
+    text-decoration: none;
+}
+
+.card2-titre {
+    margin: 0;
+    margin-top: 1.11vw;
+    font-weight: bolder;
+    font-size: 1.11vw;
+    text-decoration: none;
+}
+
+.card1-desc {
+    margin-top: 0.49vw;
+    margin-bottom: 0vw;
+    text-decoration: none;
+}
+
+.card2-desc {
+    margin-top: 0.49vw;
+    margin-bottom: 0vw;
+    text-decoration: none;
+}
+
+.container1 {
+    width: 55vw;
+    height: 37.4vw;
+    background-color: #d9d9d9;
+    padding: 3vw;
+    border-radius: 1.39vw;
+}
+
+.container2 {
+    width: 25vw;
+    height: 37.4vw;
+    background-color: #d9d9d9;
+    padding: 3vw;
+    border-radius: 1.39vw;
+}
+
+.container3 {
+    width: 55vw;
+    height: 37.4vw;
+    border-radius: 1.39vw;
+}
+
+.container1 h4 {
+    margin-top: 0.14vw;
+    font-weight: 700;
+}
+
+.container2 h4 {
+    margin-top: 0.14vw;
+    font-weight: 700;
+}
+
+.container1-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.container1-content >* {
+    flex: 1 1 30%;
+
+}
+
+.plus {
+    font-size: 1.25vw;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 0.69vw;
+}
+
+.container2-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.group-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-evenly;
+}
+
